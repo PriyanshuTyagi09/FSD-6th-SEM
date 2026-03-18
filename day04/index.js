@@ -22,4 +22,5 @@ const writeData = async (path, data) => {
     const response = await writeFile(path, JSON.stringify(updatedData));
     console.log(response.status);
 }
-writeData("./students.json", {name: "B" });
+writeData("./students.json", {name: "B" }); 
+
